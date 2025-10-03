@@ -11,4 +11,12 @@ class mahasiswa {
     required this.jurusan,
     required this.angkatan,
   });
+
+  //method
+  void tampildata() {
+    print("Nama : $nama");
+    print("NIM : $nim");
+    print("Jurusan : $jurusan");
+    print("angkatan : $angkatan");
+  }
 }
